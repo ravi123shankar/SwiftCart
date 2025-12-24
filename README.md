@@ -51,31 +51,3 @@ No real transactions, payments, or commercial activities are involved.
 1. Clone the repository:
    ```bash
    git clone https://github.com/ravi123shankar/SwiftCart.git
-
-## 📂 Project Structure
-
-swiftcart/
-│
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/
-│       │       └── swiftcart/
-│       │           ├── controller/    → Servlets
-│       │           ├── dao/           → DAO interfaces & implementations
-│       │           ├── model/         → Java model classes
-│       │           ├── util/          → Database utilities
-│       │           └── exception/     → Custom exceptions
-│       │
-│       └── webapp/
-│           ├── css/                   → Stylesheets
-│           ├── images/                → Static images
-│           ├── WEB-INF/
-│           │   └── web.xml
-│           ├── home.jsp               → Home page
-│           ├── index.jsp              → Products page
-│           ├── product-details.jsp    → Product details page
-│           └── about.jsp              → About page
-│
-├── pom.xml                            → Maven configuration
-└── README.md                          → Project documentation
